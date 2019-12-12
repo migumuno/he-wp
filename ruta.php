@@ -1,7 +1,7 @@
 <?php 
 /* Template Name: Ruta */
 
-get_header();
+get_header('ruta');
 ?>
 
 <body>

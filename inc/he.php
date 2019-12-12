@@ -84,7 +84,7 @@ function create_he_post($lat=null, $lng=null) {
 }
 
 function he_register_ip() {
-	if(!is_admin()) {
+	if(!is_page()) {
 		create_he_post();
 	}
 }

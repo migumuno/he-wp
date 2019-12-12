@@ -5,21 +5,6 @@ get_header('ruta');
 ?>
 
 <body>
-	<c:if test="true">
-	</c:if>
-	<script>
-		window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
-		ga('create', 'UA-349413-1', 'auto');
-
-		ga('set', 'dimension1', '1');
-		ga('set', 'dimension2', 'ES');
-		ga('set', 'dimension3', 'ES.29');
-		ga('set', 'dimension4', '3111525');
-		ga('set', 'dimension5', 'no');
-		ga('send', 'pageview');
-	</script>
-
-
 	<header id="header-main">
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="container">

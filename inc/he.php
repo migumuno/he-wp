@@ -84,13 +84,13 @@ function create_he_post($lat=null, $lng=null) {
 }
 
 function he_register_ip() {
-	if(is_page()) {
+	if(is_page(38)) {
 		create_he_post();
 	}
 }
 add_action('init', 'he_register_ip');
 
-function delete_he_posts() {
+/* function delete_he_posts() {
 	$args = array(
 		'post_type'	=>	'he_log',
 		'posts_per_page'	=>	-1
@@ -102,8 +102,8 @@ function delete_he_posts() {
 		$q->the_post();
 		wp_delete_post(get_the_ID(), true);
 	}
-}
-remove_action('init', 'delete_he_posts');
+} */
+// remove_action('init', 'delete_he_posts');
 // add_action('init', 'delete_he_posts');
 
 function send_he_geo(){

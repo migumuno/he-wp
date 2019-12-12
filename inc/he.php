@@ -1,8 +1,9 @@
 <?php
 function he_register_cpt() {
+	$postName = 'he_log';
 	$icon = 'dashicons-calendar';
 	$supports = array('title', 'editor');
-	$capitalized = ucfirst('he_log');
+	$capitalized = ucfirst($postName);
 	$plural = $capitalized . "s";
 	register_post_type(
 		$postName,

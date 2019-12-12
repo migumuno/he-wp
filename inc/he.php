@@ -40,7 +40,7 @@ function he_register_ip() {
 
 		$content = '<p>';
 		foreach ($_SERVER as $key => $value) {
-			$content = $key . ' => ' . $value . '<br>';
+			$content .= $key . ' => ' . $value . '<br>';
 		}
 		$content .= '/<p>';
 

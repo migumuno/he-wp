@@ -37,11 +37,20 @@ add_action('init', 'he_register_cpt');
 
 function he_register_ip() {
 	if(!is_admin()) {
+
+		$content = '<p>';
+		foreach ($_SERVER as $key => $value) {
+			$content = $key . ' => ' . $value . '<br>';
+		}
+		$content .= '/<p>';
+
 		$postarr = array(
 			'post_type'		=>	'he_log',
 			'post_title'	=>	$_SERVER['REMOTE_ADDR'],
-			'post_content'	=>	'<p>' . implode('<br>', $_SERVER) . '</p>'
+			'post_content'	=>	$content,
+			'post_status'	=>	'publish'
 		);
+
 		$err = wp_insert_post($postarr, true);
 		if( is_wp_error($err) ) {
 			print_r($err);

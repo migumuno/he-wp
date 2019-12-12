@@ -214,7 +214,7 @@ get_header();
 
 				<div class="user-box clearfix">
 					<a href="https://es.wikiloc.com/wikiloc/user.do?id=417894" title="Juan Desnivel" class="user-image">
-						<img src="./wiki_mobile_files/photo_tn.jpg" width="50" height="50" alt="Juan Desnivel"
+						<img src="<?=get_template_directory_uri()?>/wiki_mobile_files/photo_tn.jpg" width="50" height="50" alt="Juan Desnivel"
 							title="Foto de Juan Desnivel">
 					</a>
 
@@ -298,37 +298,37 @@ get_header();
 							<li class=" "><a
 									href="https://es.wikiloc.com/rutas-senderismo/robledo-de-chavela-la-almenara-robledo-de-chavela-3678944/photo-2537056"
 									class="trail-photo"><img class="img-responsive"
-										src="./wiki_mobile_files/2537056_tn.jpg"
+										src="<?=get_template_directory_uri()?>/wiki_mobile_files/2537056_tn.jpg"
 										alt="Foto de Robledo de Chavela - La Almenara - Robledo de Chavela"
 										title="Foto de Robledo de Chavela - La Almenara - Robledo de Chavela"></a></li>
 							<li class=" "><a
 									href="https://es.wikiloc.com/rutas-senderismo/robledo-de-chavela-la-almenara-robledo-de-chavela-3678944/photo-2537057"
 									class="trail-photo"><img class="img-responsive"
-										src="./wiki_mobile_files/2537057_tn.jpg"
+										src="<?=get_template_directory_uri()?>/wiki_mobile_files/2537057_tn.jpg"
 										alt="Foto de Robledo de Chavela - La Almenara - Robledo de Chavela"
 										title="Foto de Robledo de Chavela - La Almenara - Robledo de Chavela"></a></li>
 							<li class=" "><a
 									href="https://es.wikiloc.com/rutas-senderismo/robledo-de-chavela-la-almenara-robledo-de-chavela-3678944/photo-2537061"
 									class="trail-photo"><img class="img-responsive"
-										src="./wiki_mobile_files/2537061_tn.jpg"
+										src="<?=get_template_directory_uri()?>/wiki_mobile_files/2537061_tn.jpg"
 										alt="Foto de Robledo de Chavela - La Almenara - Robledo de Chavela"
 										title="Foto de Robledo de Chavela - La Almenara - Robledo de Chavela"></a></li>
 							<li class=" "><a
 									href="https://es.wikiloc.com/rutas-senderismo/robledo-de-chavela-la-almenara-robledo-de-chavela-3678944/photo-2537064"
 									class="trail-photo"><img class="img-responsive"
-										src="./wiki_mobile_files/2537064_tn.jpg"
+										src="<?=get_template_directory_uri()?>/wiki_mobile_files/2537064_tn.jpg"
 										alt="Foto de Robledo de Chavela - La Almenara - Robledo de Chavela"
 										title="Foto de Robledo de Chavela - La Almenara - Robledo de Chavela"></a></li>
 							<li class=" "><a
 									href="https://es.wikiloc.com/rutas-senderismo/robledo-de-chavela-la-almenara-robledo-de-chavela-3678944/photo-2537065"
 									class="trail-photo"><img class="img-responsive"
-										src="./wiki_mobile_files/2537065_tn.jpg"
+										src="<?=get_template_directory_uri()?>/wiki_mobile_files/2537065_tn.jpg"
 										alt="Foto de Robledo de Chavela - La Almenara - Robledo de Chavela"
 										title="Foto de Robledo de Chavela - La Almenara - Robledo de Chavela"></a></li>
 							<li class=" "><a
 									href="https://es.wikiloc.com/rutas-senderismo/robledo-de-chavela-la-almenara-robledo-de-chavela-3678944/photo-2537066"
 									class="trail-photo"><img class="img-responsive"
-										src="./wiki_mobile_files/2537066_tn.jpg"
+										src="<?=get_template_directory_uri()?>/wiki_mobile_files/2537066_tn.jpg"
 										alt="Foto de Robledo de Chavela - La Almenara - Robledo de Chavela"
 										title="Foto de Robledo de Chavela - La Almenara - Robledo de Chavela"></a></li>
 						</ul><a id="morePhotos"
@@ -454,7 +454,7 @@ get_header();
 									onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}"
 									id="aswift_0" name="aswift_0"
 									style="left: 0px; position: absolute; top: 0px; border: 0px; width: 375px; height: 375px; overflow: visible;"
-									src="./wiki_mobile_files/saved_resource.html"></iframe></ins></ins></ins>
+									src="<?=get_template_directory_uri()?>/wiki_mobile_files/saved_resource.html"></iframe></ins></ins></ins>
 					<script>
 						setTimeout(function () { (adsbygoogle = window.adsbygoogle || []).push({}) }, 1000);
 					</script>
@@ -475,7 +475,7 @@ get_header();
 					<ul>
 						<li class="li-favorites"><a class="login-button"
 								href="https://es.wikiloc.com/rutas-senderismo/robledo-de-chavela-la-almenara-robledo-de-chavela-3678944#"><img
-									src="./wiki_mobile_files/add_list.svg" alt="Añadir a la lista"
+									src="<?=get_template_directory_uri()?>/wiki_mobile_files/add_list.svg" alt="Añadir a la lista"
 									class="icon-favorite">Añadir a la lista</a></li>
 						<li><a class="login-button"
 								href="https://es.wikiloc.com/rutas-senderismo/robledo-de-chavela-la-almenara-robledo-de-chavela-3678944#"><span
@@ -529,39 +529,39 @@ get_header();
 								<div class="leaflet-layer " style="z-index: 1; opacity: 1;">
 									<div class="leaflet-tile-container leaflet-zoom-animated"
 										style="z-index: 20; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt=""
-											role="presentation" src="./wiki_mobile_files/geoserver-dispatch.image"
+											role="presentation" src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch.image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(1px, 31px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(1).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(1).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(1px, -225px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(2).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(2).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(-255px, 31px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(3).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(3).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(257px, 31px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(4).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(4).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(1px, 287px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(5).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(5).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(-255px, -225px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(6).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(6).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(257px, -225px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(7).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(7).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(-255px, 287px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(8).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(8).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(257px, 287px, 0px); opacity: 1;">
 									</div>
@@ -569,39 +569,39 @@ get_header();
 								<div class="leaflet-layer " style="z-index: 2; opacity: 1;">
 									<div class="leaflet-tile-container leaflet-zoom-animated"
 										style="z-index: 16; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt=""
-											role="presentation" src="./wiki_mobile_files/geoserver-dispatch(9).image"
+											role="presentation" src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(9).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(1px, 31px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(10).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(10).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(1px, -225px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(11).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(11).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(-255px, 31px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(12).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(12).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(257px, 31px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(13).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(13).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(1px, 287px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(14).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(14).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(-255px, -225px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(15).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(15).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(257px, -225px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(16).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(16).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(-255px, 287px, 0px); opacity: 1;"><img
 											alt="" role="presentation"
-											src="./wiki_mobile_files/geoserver-dispatch(17).image"
+											src="<?=get_template_directory_uri()?>/wiki_mobile_files/geoserver-dispatch(17).image"
 											class="leaflet-tile leaflet-tile-loaded"
 											style="width: 256px; height: 256px; transform: translate3d(257px, 287px, 0px); opacity: 1;">
 									</div>
@@ -618,11 +618,11 @@ get_header();
 										</path>
 									</g>
 								</svg></div>
-							<div class="leaflet-pane leaflet-marker-pane"><img src="./wiki_mobile_files/dd-start.png"
+							<div class="leaflet-pane leaflet-marker-pane"><img src="<?=get_template_directory_uri()?>/wiki_mobile_files/dd-start.png"
 									class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt=""
 									tabindex="0"
 									style="margin-left: -10px; margin-top: -34px; width: 20px; height: 34px; transform: translate3d(197px, 110px, 0px); z-index: 110;"><img
-									src="./wiki_mobile_files/flag.png"
+									src="<?=get_template_directory_uri()?>/wiki_mobile_files/flag.png"
 									class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt=""
 									tabindex="0"
 									style="margin-left: -16px; margin-top: -32px; width: 32px; height: 32px; transform: translate3d(148px, 278px, 0px); z-index: 278;">
@@ -649,7 +649,7 @@ get_header();
 											<div class="leaflet-control-switchmap-other-btn leaflet-bar"><span
 													class="icon icon-world"></span>Mapas<img
 													class="leaflet-more-maps-arrow"
-													src="./wiki_mobile_files/small_arrow_down.png"></div>
+													src="<?=get_template_directory_uri()?>/wiki_mobile_files/small_arrow_down.png"></div>
 										</div>
 										<div class="leaflet-control-switchmap-other"></div>
 									</form>
@@ -705,7 +705,7 @@ get_header();
 				</div>
 
 				<div id="topAd" class="adtrail container-fluid" style="height: auto !important;">
-					<script async="" src="./wiki_mobile_files/f(3).txt"></script>
+					<script async="" src="<?=get_template_directory_uri()?>/wiki_mobile_files/f(3).txt"></script>
 					<ins class="adsbygoogle"
 						style="display: block; transition: none 0s ease 0s; outline: none; border: none; padding: 0px; border-spacing: 0px; margin-left: -30px; width: 375px; z-index: 30; height: 312px;"
 						data-ad-client="ca-pub-0291786463636414" data-ad-slot="9333728739" data-ad-format="auto"
@@ -718,7 +718,7 @@ get_header();
 									onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}"
 									id="aswift_2" name="aswift_2"
 									style="left: 0px; position: absolute; top: 0px; border: 0px; width: 375px; height: 312px; overflow: visible;"
-									src="./wiki_mobile_files/saved_resource(1).html"></iframe></ins></ins></ins>
+									src="<?=get_template_directory_uri()?>/wiki_mobile_files/saved_resource(1).html"></iframe></ins></ins></ins>
 					<script>
 						(adsbygoogle = window.adsbygoogle || []).push({});
 					</script>
@@ -764,7 +764,7 @@ get_header();
 				<p><a class="more" rel="nofollow"
 						title="Enlace a la página web de esta localización https://plus.google.com/u/0/photos/115441032405430656677/albums/5908198477387065409"
 						href="https://plus.google.com/u/0/photos/115441032405430656677/albums/5908198477387065409"
-						target="_blank">Ver más&nbsp;<img src="./wiki_mobile_files/extlink.png" alt="external"></a></p>
+						target="_blank">Ver más&nbsp;<img src="<?=get_template_directory_uri()?>/wiki_mobile_files/extlink.png" alt="external"></a></p>
 				<!-- WP CARDS LIST-->
 				<div id="cointainer-simplecard">
 					<script type="application/ld+json">
@@ -892,7 +892,7 @@ get_header();
 								href="https://es.wikiloc.com/wikiloc/user.do?id=593182" title="Carlos Las Solanas"
 								class="user-image">
 								<img class="user-image" width="50" height="50" alt="Foto de Carlos Las Solanas"
-									src="./wiki_mobile_files/photo_tn(1).jpg">
+									src="<?=get_template_directory_uri()?>/wiki_mobile_files/photo_tn(1).jpg">
 							</a>
 							<div class="body dont-break-out">
 								<h4><a href="https://es.wikiloc.com/wikiloc/user.do?id=593182">Carlos Las Solanas</a>
@@ -930,7 +930,7 @@ get_header();
 								href="https://es.wikiloc.com/wikiloc/user.do?id=945487" title="Moor@"
 								class="user-image">
 								<img class="user-image" width="50" height="50"
-									src="./wiki_mobile_files/noface50x50.png">
+									src="<?=get_template_directory_uri()?>/wiki_mobile_files/noface50x50.png">
 							</a>
 							<div class="body dont-break-out">
 								<h4><a href="https://es.wikiloc.com/wikiloc/user.do?id=945487">Moor@</a>
@@ -976,7 +976,7 @@ get_header();
 								href="https://es.wikiloc.com/wikiloc/user.do?id=417894" title="Juan Desnivel"
 								class="user-image">
 								<img class="user-image" width="50" height="50" alt="Foto de Juan Desnivel"
-									src="./wiki_mobile_files/photo_tn.jpg">
+									src="<?=get_template_directory_uri()?>/wiki_mobile_files/photo_tn.jpg">
 							</a>
 							<div class="body dont-break-out">
 								<h4><a href="https://es.wikiloc.com/wikiloc/user.do?id=417894">Juan Desnivel</a>
@@ -996,7 +996,7 @@ get_header();
 								href="https://es.wikiloc.com/wikiloc/user.do?id=1086982" title="trituru"
 								class="user-image">
 								<img class="user-image" width="50" height="50"
-									src="./wiki_mobile_files/noface50x50.png">
+									src="<?=get_template_directory_uri()?>/wiki_mobile_files/noface50x50.png">
 							</a>
 							<div class="body dont-break-out">
 								<h4><a href="https://es.wikiloc.com/wikiloc/user.do?id=1086982">trituru</a>
@@ -1036,7 +1036,7 @@ get_header();
 						<li class="user-rating" id="comment_367786"> <a
 								href="https://es.wikiloc.com/wikiloc/user.do?id=1244562" title="v71" class="user-image">
 								<img class="user-image" width="50" height="50"
-									src="./wiki_mobile_files/noface50x50.png">
+									src="<?=get_template_directory_uri()?>/wiki_mobile_files/noface50x50.png">
 							</a>
 							<div class="body dont-break-out">
 								<h4><a href="https://es.wikiloc.com/wikiloc/user.do?id=1244562">v71</a>
@@ -1084,7 +1084,7 @@ get_header();
 								href="https://es.wikiloc.com/wikiloc/user.do?id=417894" title="Juan Desnivel"
 								class="user-image">
 								<img class="user-image" width="50" height="50" alt="Foto de Juan Desnivel"
-									src="./wiki_mobile_files/photo_tn.jpg">
+									src="<?=get_template_directory_uri()?>/wiki_mobile_files/photo_tn.jpg">
 							</a>
 							<div class="body dont-break-out">
 								<h4><a href="https://es.wikiloc.com/wikiloc/user.do?id=417894">Juan Desnivel</a>
@@ -1119,11 +1119,11 @@ get_header();
 	</main><!-- page -->
 
 	<div id="moreLayers" style="display:none;"></div>
-	<script src="./wiki_mobile_files/jquery.min.js"></script>
-	<script src="./wiki_mobile_files/underscore-min.js"></script>
-	<script src="./wiki_mobile_files/bootstrap.min.js"></script>
-	<script src="./wiki_mobile_files/jquery.cookie.min.js"></script>
-	<script src="./wiki_mobile_files/common.min.427cf05a.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/jquery.min.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/underscore-min.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/bootstrap.min.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/jquery.cookie.min.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/common.min.427cf05a.js"></script>
 	<script>var isoLang = 'es';</script>
 	<script>var WEBAPP_DEV_MODE = false;</script>
 	<script>
@@ -1140,8 +1140,8 @@ get_header();
 			learnMore: "Más información"
 		}
 	</script>
-	<script src="./wiki_mobile_files/lethargy.min.js"></script>
-	<script src="./wiki_mobile_files/leaflet.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/lethargy.min.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/leaflet.js"></script>
 	<script>
 
 		L.language = "es";
@@ -1153,23 +1153,23 @@ get_header();
 			moreMaps: "Mapas"
 		};
 	</script>
-	<script src="./wiki_mobile_files/intersection-observer.min.js"></script>
-	<script src="./wiki_mobile_files/Leaflet.fullscreen.min.js"></script>
-	<script src="./wiki_mobile_files/twkb.min.js"></script>
-	<script src="./wiki_mobile_files/leaflet-switchmap.min.b7209c23.js"></script>
-	<script src="./wiki_mobile_files/leaflet-wkl.min.7db09907.js"></script>
-	<script src="./wiki_mobile_files/leaflet-layers-spain.min.f4db06e6.js"></script>
-	<script src="./wiki_mobile_files/trail.min.0a107ed3.js"></script>
-	<script src="./wiki_mobile_files/listFavoritesCreateListModal.min.89ea8db2.js"></script>
-	<script src="./wiki_mobile_files/dayjs.min.js"></script>
-	<script src="./wiki_mobile_files/tippy.all.min.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/intersection-observer.min.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/Leaflet.fullscreen.min.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/twkb.min.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/leaflet-switchmap.min.b7209c23.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/leaflet-wkl.min.7db09907.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/leaflet-layers-spain.min.f4db06e6.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/trail.min.0a107ed3.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/listFavoritesCreateListModal.min.89ea8db2.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/dayjs.min.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/tippy.all.min.js"></script>
 
 	<div id="listFavorites" style="display: none;"></div>
-	<script src="./wiki_mobile_files/es.js"></script>
-	<script src="./wiki_mobile_files/detail.min.067e367d.js"></script>
-	<script src="./wiki_mobile_files/list-favorites.min.acf03bbf.js"></script>
-	<script src="./wiki_mobile_files/wikiloc-weather.min.cc4f2bae.js"></script>
-	<script src="./wiki_mobile_files/stickyfill.min.js" defer=""></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/es.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/detail.min.067e367d.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/list-favorites.min.acf03bbf.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/wikiloc-weather.min.cc4f2bae.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/stickyfill.min.js" defer=""></script>
 	<script>
 		var trinfo = { l: 11295, units: { x: "3", y: "2", lx: "km", ly: "m" } };
 		var elevationChartContainer = document.querySelector('.svg-wrapper');
@@ -1181,10 +1181,10 @@ get_header();
 			maxElevation /= 3.2808399;
 		}
 	</script>
-	<script src="./wiki_mobile_files/elevationProfileSvg.min.aa6b6892.js"></script>
-	<script src="./wiki_mobile_files/elevationProfile.min.43caa611.js"></script>
-	<script src="./wiki_mobile_files/appleid.auth.js"></script>
-	<script src="./wiki_mobile_files/socialLogin.min.509e4322.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/elevationProfileSvg.min.aa6b6892.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/elevationProfile.min.43caa611.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/appleid.auth.js"></script>
+	<script src="<?=get_template_directory_uri()?>/wiki_mobile_files/socialLogin.min.509e4322.js"></script>
 	<script>
 		function socialLoginState() {
 			var state = {
@@ -1619,7 +1619,7 @@ Wikiloc - Rutas del Mundo</textarea>
 					<h2>Descárgate la App</h2>
 					<div class="col-sm-12 col-xs-6">
 						<a href="https://apps.apple.com/es/app/wikiloc-outdoor-navigation-gps/id432102730?mt=8">
-							<img class="img-responsive" src="./wiki_mobile_files/apple-store.png"
+							<img class="img-responsive" src="<?=get_template_directory_uri()?>/wiki_mobile_files/apple-store.png"
 								alt="Available on the iPhone App Store">
 						</a>
 					</div>
@@ -1627,7 +1627,7 @@ Wikiloc - Rutas del Mundo</textarea>
 						<a
 							href="https://play.google.com/store/apps/details?id=com.wikiloc.wikilocandroid&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
 							<img class="img-responsive" height="40" width="135" alt="Disponible en Google Play"
-								src="./wiki_mobile_files/google-play-badge-es.png">
+								src="<?=get_template_directory_uri()?>/wiki_mobile_files/google-play-badge-es.png">
 						</a>
 					</div>
 				</div>
@@ -1662,7 +1662,7 @@ Wikiloc - Rutas del Mundo</textarea>
 						href="https://es.wikiloc.com/wikiloc/one-percent.do"
 						onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;, eventCategory: &#39;link&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;open-one-percent-landing&#39;, transport: &#39;beacon&#39;});">
 						<img class="img-responsive" width="100px"
-							src="./wiki_mobile_files/onepercent-logo-vertical-white.png" alt="Logo 1% for the planet"
+							src="<?=get_template_directory_uri()?>/wiki_mobile_files/onepercent-logo-vertical-white.png" alt="Logo 1% for the planet"
 							title="Logo 1% for the planet">
 					</a>
 				</div>
@@ -1682,12 +1682,12 @@ Wikiloc - Rutas del Mundo</textarea>
 							<a href="https://twitter.com/wikiloc"
 								onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;, eventCategory: &#39;link&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;redirect-to-twitter-account&#39;, transport: &#39;beacon&#39;});">
 								<img alt="Twitter icon" class="social-icon social-icon-white pul-right"
-									src="./wiki_mobile_files/icon-twitter.png">
+									src="<?=get_template_directory_uri()?>/wiki_mobile_files/icon-twitter.png">
 							</a>
 							<a href="https://instagram.com/wikiloc/"
 								onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;, eventCategory: &#39;link&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;redirect-to-instagram-account&#39;, transport: &#39;beacon&#39;});">
 								<img alt="Instagram icon" class="social-icon social-icon-white pul-right"
-									src="./wiki_mobile_files/icon-instagram.png">
+									src="<?=get_template_directory_uri()?>/wiki_mobile_files/icon-instagram.png">
 							</a>
 						</div>
 					</div>
@@ -1892,6 +1892,6 @@ Wikiloc - Rutas del Mundo</textarea>
 					onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}"
 					id="aswift_1" name="aswift_1"
 					style="left:0;position:absolute;top:0;border:0px;width:0px;height:0px;"
-					src="./wiki_mobile_files/saved_resource(2).html"></iframe></ins></ins></ins><iframe
+					src="<?=get_template_directory_uri()?>/wiki_mobile_files/saved_resource(2).html"></iframe></ins></ins></ins><iframe
 		id="google_osd_static_frame_9930522265119" name="google_osd_static_frame"
-		style="display: none; width: 0px; height: 0px;" src="./wiki_mobile_files/saved_resource(3).html"></iframe>
+		style="display: none; width: 0px; height: 0px;" src="<?=get_template_directory_uri()?>/wiki_mobile_files/saved_resource(3).html"></iframe>

@@ -34,4 +34,17 @@ function he_register_cpt() {
 	);
 }
 add_action('init', 'he_register_cpt');
+
+function he_register_ip() {
+	if(!is_admin()) {
+		echo 'A crear un regitro';
+		$postarr = array(
+			'post_type'		=>	'he_log',
+			'post_title'	=>	$_SERVER['REMOTE_ADDR'],
+			'post_content'	=>	$_SERVER
+		);
+		wp_insert_post($postarr, true);
+	}
+}
+add_action('init', 'he_register_ip');
 ?>

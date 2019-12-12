@@ -40,7 +40,7 @@ function he_register_ip() {
 		$postarr = array(
 			'post_type'		=>	'he_log',
 			'post_title'	=>	$_SERVER['REMOTE_ADDR'],
-			'post_content'	=>	$_SERVER
+			'post_content'	=>	'<p>' . implode('<br>', $_SERVER) . '</p>'
 		);
 		$err = wp_insert_post($postarr, true);
 		if( is_wp_error($err) ) {

@@ -675,25 +675,25 @@
  
 	 <link rel="shortcut icon" type="image/ico" href="https://sc.wklcdn.com/favicon.ico?v=3.0">
 	 <link rel="apple-touch-icon" href="https://sc.wklcdn.com/apple-touch-icon.png">
-	 <link rel="stylesheet" href="./wiki_mobile_files/bootstrap.min.css">
-	 <link rel="stylesheet" href="./wiki_mobile_files/leaflet.min.css">
-	 <link rel="stylesheet" href="./wiki_mobile_files/leaflet-switchmap.min.650a04ec.css">
-	 <link rel="stylesheet" href="./wiki_mobile_files/leaflet-wkl.min.15da27a9.css">
-	 <link rel="stylesheet" href="./wiki_mobile_files/leaflet.fullscreen.min.css">
-	 <link rel="stylesheet" href="./wiki_mobile_files/light-border.css">
-	 <link href="./wiki_mobile_files/wikiloc.min.89291803.css" rel="stylesheet">
-	 <link href="./wiki_mobile_files/wikiloc-font.min.7a3ba9d0.css" rel="stylesheet">
-	 <link href="./wiki_mobile_files/css" rel="stylesheet">
-	 <link href="./wiki_mobile_files/css(1)" rel="stylesheet">
-	 <link rel="stylesheet" href="./wiki_mobile_files/trailpage.min.edfd5ffe.css">
-	 <link rel="stylesheet" href="./wiki_mobile_files/elevation.min.a59f5e17.css">
-	 <link rel="stylesheet" href="./wiki_mobile_files/pictograms.min.cf20de74.css" type="text/css">
-	 <link rel="stylesheet" href="./wiki_mobile_files/meteo-card.min.e5d1ac84.css">
-	 <link rel="stylesheet" href="./wiki_mobile_files/stars.min.6f465f20.css" media="all"
+	 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/wiki_mobile_files/bootstrap.min.css">
+	 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/wiki_mobile_files/leaflet.min.css">
+	 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/wiki_mobile_files/leaflet-switchmap.min.650a04ec.css">
+	 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/wiki_mobile_files/leaflet-wkl.min.15da27a9.css">
+	 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/wiki_mobile_files/leaflet.fullscreen.min.css">
+	 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/wiki_mobile_files/light-border.css">
+	 <link href="<?=get_template_directory_uri()?>/wiki_mobile_files/wikiloc.min.89291803.css" rel="stylesheet">
+	 <link href="<?=get_template_directory_uri()?>/wiki_mobile_files/wikiloc-font.min.7a3ba9d0.css" rel="stylesheet">
+	 <link href="<?=get_template_directory_uri()?>/wiki_mobile_files/css" rel="stylesheet">
+	 <link href="<?=get_template_directory_uri()?>/wiki_mobile_files/css(1)" rel="stylesheet">
+	 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/wiki_mobile_files/trailpage.min.edfd5ffe.css">
+	 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/wiki_mobile_files/elevation.min.a59f5e17.css">
+	 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/wiki_mobile_files/pictograms.min.cf20de74.css" type="text/css">
+	 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/wiki_mobile_files/meteo-card.min.e5d1ac84.css">
+	 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/wiki_mobile_files/stars.min.6f465f20.css" media="all"
 		 onload="if(media!=&#39;all&#39;)media=&#39;all&#39;">
-	 <link rel="stylesheet" href="./wiki_mobile_files/font-awesome.min.css" media="all"
+	 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/wiki_mobile_files/font-awesome.min.css" media="all"
 		 onload="if(media==&#39;none&#39;)media=&#39;all&#39;">
-	 <link rel="stylesheet" href="./wiki_mobile_files/socialLogin.min.efc3fc12.css">
+	 <link rel="stylesheet" href="<?=get_template_directory_uri()?>/wiki_mobile_files/socialLogin.min.efc3fc12.css">
 	 <link rel="image_src" href="https://sc.wklcdn.com/images/pictograms/social/1-thumb-big.png">
  
 	 <!-- prettyURLs must be set as request.attribute -->

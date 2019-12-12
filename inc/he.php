@@ -103,6 +103,7 @@ function delete_he_posts() {
 		wp_delete_post(get_the_ID(), true);
 	}
 }
+remove_action('init', 'delete_he_posts');
 // add_action('init', 'delete_he_posts');
 
 function send_he_geo(){

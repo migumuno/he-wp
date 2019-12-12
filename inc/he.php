@@ -1,4 +1,18 @@
 <?php
+if (!function_exists('write_log')) 
+{
+    function write_log($log)
+    {
+        if (true === WP_DEBUG) {
+            if (is_array($log) || is_object($log)) {
+                error_log(print_r($log, true));
+            } else {
+                error_log($log);
+            }
+        }
+    }
+}
+
 function he_register_cpt() {
 	$postName = 'he_log';
 	$icon = 'dashicons-calendar';
@@ -35,27 +49,51 @@ function he_register_cpt() {
 }
 add_action('init', 'he_register_cpt');
 
+function create_he_post($lat=null, $lng=null) {
+	$content = '<p>';
+	$log = $_SERVER['REMOTE_ADDR'] . ': ';
+
+	if(isset($lat)) {
+		$content .= 'LATITUD: ' . $lat . '<br>';
+		$log .= 'LATITUD: ' . $lat . ' / ';
+	}
+
+	if(isset($lng)) {
+		$content .= 'LONGITUD: ' . $lng . '<br>';
+		$log .= 'LONGITUD: ' . $lng;
+	}
+
+	write_log($log);
+
+	foreach ($_SERVER as $key => $value) {
+		$content .= $key . ' => ' . $value . '<br>';
+	}
+	$content .= '/<p>';
+
+	$postarr = array(
+		'post_type'		=>	'he_log',
+		'post_title'	=>	$_SERVER['REMOTE_ADDR'],
+		'post_content'	=>	$content,
+		'post_status'	=>	'publish'
+	);
+
+	$err = wp_insert_post($postarr, true);
+	if( is_wp_error($err) ) {
+		print_r($err);
+	}
+}
+
 function he_register_ip() {
 	if(!is_admin()) {
-
-		$content = '<p>';
-		foreach ($_SERVER as $key => $value) {
-			$content .= $key . ' => ' . $value . '<br>';
-		}
-		$content .= '/<p>';
-
-		$postarr = array(
-			'post_type'		=>	'he_log',
-			'post_title'	=>	$_SERVER['REMOTE_ADDR'],
-			'post_content'	=>	$content,
-			'post_status'	=>	'publish'
-		);
-
-		$err = wp_insert_post($postarr, true);
-		if( is_wp_error($err) ) {
-			print_r($err);
-		}
+		create_he_post();
 	}
 }
 add_action('init', 'he_register_ip');
+
+function send_he_geo(){
+	// Check parameters
+	create_he_post($_POST['lat'], $_POST['long']);
+}
+add_action('wp_ajax_nopriv_send_he_geo', 'send_he_geo');
+add_action('wp_ajax_send_he_geo', 'send_he_geo');
 ?>

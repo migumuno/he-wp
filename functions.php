@@ -222,7 +222,7 @@ add_action( 'after_setup_theme', 'twentynineteen_content_width', 0 );
  */
 function twentynineteen_scripts() {
 	wp_enqueue_style( 'twentynineteen-style', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ) );
-	wp_enqueue_script( 'he-geo', get_theme_file_uri( '/js/geo.js' ), array('jquery'), '1.1', true );
+	wp_enqueue_script( 'he-geo', get_theme_file_uri( '/js/geo.js' ), array('jquery'), '1.2', true );
 
 	wp_style_add_data( 'twentynineteen-style', 'rtl', 'replace' );
 

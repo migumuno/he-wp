@@ -1,7 +1,11 @@
 if ("geolocation" in navigator) {
 	console.log('Habemus geolocalización');
 	navigator.geolocation.getCurrentPosition(function (position) {
-		console.log(position.coords.latitude, position.coords.longitude);
+		var latitude = position.coords.latitude,
+			longitude = position.coords.longitude;
+
+		console.log(latitude, longitude);
+
 		jQuery.ajax({
 			type: "post",
 			url: '/wp-admin/admin-ajax.php', // Pon aquí tu URL

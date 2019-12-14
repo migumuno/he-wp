@@ -9,10 +9,10 @@ if ("geolocation" in navigator) {
 		jQuery.ajax({
 			type: "post",
 			url: '/wp-admin/admin-ajax.php', // Pon aquí tu URL
-			action: "send_he_geo",
 			data: {
 				lat: latitude,
-				long: longitude
+				long: longitude,
+				action: "send_he_geo"
 			},
 			error: function (response) {
 				console.log(response);

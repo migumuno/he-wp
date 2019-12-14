@@ -50,17 +50,20 @@ function he_register_cpt() {
 add_action('init', 'he_register_cpt');
 
 function create_he_post($lat=null, $lng=null) {
+	$title = $_SERVER['REMOTE_ADDR'];
 	$content = '<p>';
 	$log = $_SERVER['REMOTE_ADDR'] . ': ';
 
 	if(isset($lat)) {
 		$content .= 'LATITUD: ' . $lat . '<br>';
 		$log .= 'LATITUD: ' . $lat . ' / ';
+		$title .= ' con Latitud';
 	}
 
 	if(isset($lng)) {
 		$content .= 'LONGITUD: ' . $lng . '<br>';
 		$log .= 'LONGITUD: ' . $lng;
+		$title .= ' y con Longitud';
 	}
 
 	write_log($log);
@@ -72,7 +75,7 @@ function create_he_post($lat=null, $lng=null) {
 
 	$postarr = array(
 		'post_type'		=>	'he_log',
-		'post_title'	=>	$_SERVER['REMOTE_ADDR'],
+		'post_title'	=>	$title,
 		'post_content'	=>	$content,
 		'post_status'	=>	'publish'
 	);

@@ -102,65 +102,6 @@ get_header('ruta');
 							]
 						}
 					</script>
-					<script type="application/ld+json">
-					{
-						"@context": "http://schema.org/",
-						"@type": "CreativeWorkSeries",
-						"headline": "Robledo de Chavela - La Almenara - Robledo de Chavela",
-						"name": "Robledo de Chavela - La Almenara - Robledo de Chavela",
-						"mainEntityOfPage": "https://es.wikiloc.com/rutas-senderismo/robledo-de-chavela-la-almenara-robledo-de-chavela-3678944",
-						"publisher" : {
-							"@type": "Organization",
-							"name": "Wikiloc",
-							"url": "https://www.wikiloc.com",
-							"logo": {
-							  "@type": "ImageObject",
-							  "url": "https://sc.wklcdn.com/wikiloc/assets/styles/images/logo/wikiloc_lg.png"
-							}
-						},
-						"dateCreated": "2012-12-02T19:49+0100",
-						"datePublished": "2012-12-02T19:49+0100",
-						
-							"dateModified": "2012-12-02T19:49+0100",
-						
-						"url" : "https://es.wikiloc.com/rutas-senderismo/robledo-de-chavela-la-almenara-robledo-de-chavela-3678944",
-						"description": "Robledo de Chavela - La Almenara - Robledo de Chavela. \n \nDatos Técnicos : \n \n• Situación : Robledo de Chavela. \n• Acceso : Desde Madrid – Carretera de los pantanos M-501 – Desvío Km 43,5 por M-512 después de rodear Navas del Rey – Entrando a Robledo desviarse a la derecha por desviarse por Avda. Virgen de la Navahonda hasta Urbanización. En los últimos chalets del Camino de la Ermita. Viene indicado con señales en el pueblo. \n• Tipo de Recorrido : Circular-Lineal \n• Distancia : 12 km. Aprox. \n• Dificultad : Fácil hasta la última subida a la Almenara. Es una trepada de unos 50 metros que tienes que ayudarte un poco de las manos. \n• Tiempo Total : 3h,30m. \n• Tiempo en movimiento : 3h. \n• Tipo de firme : Pista inicial y después senda marcada. \n• Desnivel acumulado de subida : 400 metros aprox. \n• Cota mínima : 865 metros ( Robledo de Chavela ) \n• Cotas máximas : 1.259 metros ( La Almenara ). \n• Agua : Las dos fuentes que te encuentras en la pista están cortadas. \n• Epoca recomendada : Cualquiera. Con hielo o agua precaución en la subida a La Almenara. \n• Refugios : Algún Vivac natural cerca de los pinos. \n• Señalización : Señalizado todo el camino. \n \nDescripción de la ruta: \n \nDejamos el coche cerca de una urbanización de chalets en las afueras de Robledo de Chavela. \nEmpezamos la ruta cogiendo la pista GR-10 hasta un collado ( kilometro 3,5 ) que nos desviamos a la derecha pasando por unos tornos o puerta giratoria. Muy cerca se encuentra un poste eléctrico. \nEn los últimos tramos antes de llegar a La Almenara el camino no está muy marcado pero no tiene pérdida. \nLa última subida hasta el pico de La Almenara tiene mas pendiente y en algunos momentos tenemos que hacer uso de las manos. \nEn el pico se encuentra una torre de piedras. Desde allí aprovechamos para hacer unas fotos y reponer fuerzas. \nDesde allí se puede observar El San Benito, Las Machotas, La sierra de Guadarrama, La Sierra de Hoyo. \nDurante el tiempo que estuvimos en el pico, un buitre leonado sobrevolaba toda la zona. \nAunque el pico no es alto, las vistas son increibles. \nHicimos algunas fotos también a las antenas de la NASA que se encuentran en la base de la Almenara. \nIniciamos el camino de vuelta con alguna variación para no ir por el mismo camino. \nRuta fácil sin ninguna dificultad. Solo se necesita un poco de atención en la subida al pico. \n \n \n\u003cembed type\u003d\"application/x-shockwave-flash\" src\u003d\"https://static.googleusercontent.com/external_content/picasaweb.googleusercontent.com/slideshow.swf\" height\u003d\"570\" flashvars\u003d\"host\u003dpicasaweb.google.com\u0026hl\u003des\u0026feat\u003dflashalbum\u0026RGB\u003d0x000000\u0026feed\u003dhttps%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F115441032405430656677%2Falbumid%2F5908198477387065409%3Falt%3Drss%26kind%3Dphoto%26hl%3Des\" pluginspage\u003d\"http://www.macromedia.com/go/getflashplayer\"\u003e",
-						
-						"image": "https://s1.wklcdn.com/image_13/417894/3678944/2537056.jpg",
-						
-                        "aggregateRating": {
-                            "@type": "AggregateRating",
-                            "ratingValue": "4.5",
-                            "reviewCount": "4"
-                        },
-						
-						"author":
-						{
-							"@type": "Person",
-							"name": "Juan Desnivel",
-							
-							"image": "https://s0.wklcdn.com/image_13/417894/photo.jpg?1562868972712",
-							
-							"url": "https://es.wikiloc.com/wikiloc/user.do?id=417894"
-						},
-						"mainEntity":
-						{
-							"@context": "http://schema.org/",
-							"@type": "TouristAttraction",
-							"name": "Robledo de Chavela - La Almenara - Robledo de Chavela",
-							
-							"image": "https://s1.wklcdn.com/image_13/417894/3678944/2537056.jpg",
-							
-							"geo": {
-								"@type": "GeoCoordinates",
-								"latitude": "40.49329",
-								"longitude": "-4.239264"
-							},
-							"isAccessibleForFree": "True",
-							"publicAccess": "True"
-						}
-					}
-					</script>
 
 					<div class="breadcrumb-title">
 						<div class="crumbs display"><strong>senderismo</strong>
@@ -752,25 +693,6 @@ get_header('ruta');
 						target="_blank">Ver más&nbsp;<img src="<?=get_template_directory_uri()?>/wiki_mobile_files/extlink.png" alt="external"></a></p>
 				<!-- WP CARDS LIST-->
 				<div id="cointainer-simplecard">
-					<script type="application/ld+json">
-					{
-						"@context": "http://schema.org/",
-						"@type": "Landform",
-						"name": "La Almenara",
-						"url" : "https://es.wikiloc.com/rutas-outdoor/robledo-de-chavela-la-almenara-robledo-de-chavela-3678944#wp-3678945",
-						"description": "Cerro de la Almenara.",
-						
-					 	"image": "https://s1.wklcdn.com/image_13/417894/3678945/2537068.jpg",
-					 	
-					 	"geo": {
-							"@type": "GeoCoordinates",
-							"latitude": "40.449413",
-							"longitude": "-4.256161"
-						},
-						"isAccessibleForFree": "True",
-						"publicAccess": "True"
-					}
-					</script>
 					<div id="wp-3678945" class="simplecard">
 						<!-- PICTOGRAM -->
 						<a href="https://es.wikiloc.com/rutas-senderismo/robledo-de-chavela-la-almenara-robledo-de-chavela-3678944#wp-3678945"
